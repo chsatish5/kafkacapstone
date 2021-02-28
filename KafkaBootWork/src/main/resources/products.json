@@ -1,0 +1,15 @@
+{
+
+	"PogId":"P100",
+	 "Supc":"S100",
+	 "Brand":"B101",
+	 "Description":"D100",
+	 "Size":"100",
+	 "Category":"C100",
+	 "Sub_Category":"SC100",
+	 "Price":"100",
+	 "Quantity":"100",
+	 "Country":"CN100",
+	 "Seller_Code":"SL100",
+	 "Stock" :"100"
+}
