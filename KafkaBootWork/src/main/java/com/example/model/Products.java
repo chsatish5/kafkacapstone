@@ -1,5 +1,10 @@
 package com.example.model;
 
+import javax.persistence.Entity;
+
+import javax.persistence.Id;
+
+@Entity 
 public class Products {
 	
 	public int getPogId() {
@@ -74,6 +79,7 @@ public class Products {
 	public void setStock(int stock) {
 		Stock = stock;
 	}
+	@Id
 	int PogId;
 	String Supc;
 	String Brand;
