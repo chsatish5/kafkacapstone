@@ -1,0 +1,7 @@
+Implemnted project using Spring boot
+
+Have Producer exposed as GET URL , When ever we hit the url : Controller read data from json file and post to Topic .
+
+Kafka Consumer runs as a Service (Listner). Reads data from topic and stores in MySQL DB 
+
+Scripts folder has kafka commands

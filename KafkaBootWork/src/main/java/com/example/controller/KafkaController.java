@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.model.Products;
 
 @RestController
-@RequestMapping("/test")
+@RequestMapping("/producer")
 public class KafkaController {
 	@Autowired
     private KafkaTemplate<String, Products> 
@@ -20,11 +20,7 @@ public class KafkaController {
     private static final String TOPIC 
         = "Products"; 
     
-    @GetMapping("/") 
-       public void postToTopicM()
-       {
-    	 System.out.println("test");
-       }
+
    @GetMapping("/publish") 
       public String postToTopic()
       
